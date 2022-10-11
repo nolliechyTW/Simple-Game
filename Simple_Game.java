@@ -51,7 +51,7 @@ public class SimpleGame {
 		input = input / 10;  
 		}  
 		//return the result  
-	  System.out.println("Sum of the digits: "+sum);
+		System.out.println("Sum of the digits: "+sum);
 		return sum;
 		} 
 
@@ -67,9 +67,9 @@ public class SimpleGame {
 		// If the user enters 2, ask for an integer and call the digitsSum method.
 		
 		System.out.println("Enter your choice: 1/2");
-	  System.out.println("1: Convert integer(secs) into hours, minutes, and seconds");
-	  System.out.println("2: Computue digits sum of all digits in an integer");
-	  int gameType = sc.nextInt();
+	 	System.out.println("1: Convert integer(secs) into hours, minutes, and seconds");
+	 	System.out.println("2: Computue digits sum of all digits in an integer");
+		int gameType = sc.nextInt();
 
 		if (gameType == 1){
 	        System.out.println("Enter seconds: ");
@@ -83,8 +83,7 @@ public class SimpleGame {
 		}
 		else{
 	        System.out.println("Not vaild");
-	    }
-			
+	    	}	
 		sc.close();
 		}
 }	
